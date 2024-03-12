@@ -15,6 +15,14 @@ IP_ADDRESSE_API is the ip of your api
 PORT : is where the app turn
 ```
 
+## Variables d'environnement
+
+Pour exécuter ce projet, vous devrez ajouter les variables d'environnement suivantes à votre fichier .env
+
+`IP_ADDRESSE_API`
+
+`PORT`
+
 ## Start project
 
 ```bash
@@ -36,7 +44,8 @@ npm run build
 serve -s build
 
 ```
+
 # ScreenShoot
+
 ![App Screenshot](/src/screenshoot/IMG_9278.jpg)
 ![App Screenshot](/src/screenshoot/image.png)
-
