@@ -8,13 +8,6 @@ Affichage de scores de matchs de football en ligne et hors ligne
 git clone https://github.com/poulpyR2r/pwa-scores-client
 ```
 
-# Rajoutez dans le .env
-
-```bash
-IP_ADDRESSE_API is the ip of your api
-PORT : is where the app turn
-```
-
 ## Variables d'environnement
 
 Pour exécuter ce projet, vous devrez ajouter les variables d'environnement suivantes à votre fichier .env
