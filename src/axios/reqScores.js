@@ -1,7 +1,10 @@
 import axios from "axios";
 
+const IP_ADDRESS_API = process.env.PORT || "localhost";
+const PORT_API = process.env.PORT_API || 300;
+
 const api = axios.create({
-  baseURL: "http://192.168.1.212:3005/api",
+  baseURL: `http://${IP_ADDRESS_API}:${PORT_API}/api`,
 });
 
 api.interceptors.request.use(
